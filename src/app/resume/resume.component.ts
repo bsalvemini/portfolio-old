@@ -78,7 +78,10 @@ import { Component } from '@angular/core';
         </ul>
       </section>
       <br />
-      <p><a href="/assets/Brandon Salvemini Resume.pdf">Download</a> this resume in PDF format</p>
+      <p>
+        <a href="/assets/Brandon Salvemini Resume.pdf">Download</a> this resume
+        in PDF format
+      </p>
     </div>
   `,
   styles: [

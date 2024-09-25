@@ -11,9 +11,9 @@ import { RouterLink, RouterOutlet } from '@angular/router';
         <h2>Brandon Salvemini</h2>
         <nav class="navbar">
           <ul>
-            <li><a href="#">Home</a></li>
+            <li><a routerLink="/">Home</a></li>
             <li><a routerLink="/resume">Resume</a></li>
-            <li><a href="#">About</a></li>
+            <li><a routerLink="/about">About</a></li>
             <li><a href="#">Projects</a></li>
           </ul>
         </nav>

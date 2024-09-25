@@ -6,20 +6,23 @@ import { RouterLink } from '@angular/router';
   standalone: true,
   imports: [RouterLink],
   template: `
-    <h1>Welcome to my Personal Portfolio website</h1>
-    <p>
-      Hi, I'm Brandon Salvemini. I am a mostly self taught coder who has been
-      coding for 14 years. This website is intended to show off my skills and
-      what I have done with them. This website has my
-      <a routerLink="/resume">resume</a>, an <a href="#">about me</a> page, and
-      a <a href="#">projects</a> page showcasing the projects I have created.
-    </p>
-    <h2>My Bucket List</h2>
-    <ul>
-      @for (item of bucketListItems; track item) {
-      <li>{{ item }}</li>
-      }
-    </ul>
+    <div class="wrapper">
+      <h1>Welcome to my Personal Portfolio website</h1>
+      <p>
+        Hi, I'm Brandon Salvemini. I am a mostly self taught coder who has been
+        coding for 14 years. This website is intended to show off my skills and
+        what I have done with them. This website has my
+        <a routerLink="/resume">resume</a>, an
+        <a routerLink="/about">about me</a> page, and a
+        <a href="#">projects</a> page showcasing the projects I have created.
+      </p>
+      <h2>My Bucket List</h2>
+      <ul>
+        @for (item of bucketListItems; track item) {
+        <li>{{ item }}</li>
+        }
+      </ul>
+    </div>
   `,
   styles: ``,
 })
