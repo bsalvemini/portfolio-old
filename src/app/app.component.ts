@@ -14,7 +14,7 @@ import { RouterLink, RouterOutlet } from '@angular/router';
             <li><a routerLink="/">Home</a></li>
             <li><a routerLink="/resume">Resume</a></li>
             <li><a routerLink="/about">About</a></li>
-            <li><a href="#">Projects</a></li>
+            <li><a routerLink="/projects">Projects</a></li>
           </ul>
         </nav>
       </header>
