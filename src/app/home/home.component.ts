@@ -14,7 +14,7 @@ import { RouterLink } from '@angular/router';
         what I have done with them. This website has my
         <a routerLink="/resume">resume</a>, an
         <a routerLink="/about">about me</a> page, and a
-        <a href="#">projects</a> page showcasing the projects I have created.
+        <a routerLink="/home">projects</a> page showcasing the projects I have created.
       </p>
       <h2>My Bucket List</h2>
       <ul>
