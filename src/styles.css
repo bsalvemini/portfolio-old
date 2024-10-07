@@ -17,6 +17,15 @@ h1, h2, h3, h4, h5, h6 {
   color: #ff7e00;
 }
 
+main a {
+  text-decoration: none;
+  color: #ff7e00;
+}
+
+main a:hover {
+  text-decoration: underline;
+}
+
 .wrapper {
   display: flex;
   flex-direction: column;
